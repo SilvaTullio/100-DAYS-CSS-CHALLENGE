@@ -1,0 +1,58 @@
+/* delete the following line if no text is used
+// edit the line if you wanna use other fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+/* use only the available space inside the 400x400 frame */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 20px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.39);
+  overflow: hidden;
+  background-image: linear-gradient(#ef9af2, #8a04ed, #570296);
+  /* background-image: linear-gradient(#72ddf7, #8093f1, #b388eb, #f7aef8); */
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 5em;
+}
+.frame:hover {
+  transform: scale(1.1);
+  background-position: -60px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.frame:active {
+  background-image: linear-gradient(  #f222ff,  #8c1eff);
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #f4f4ed;
+  transform: translate(-50%, -50%);
+}
+.hundred {
+  text-align: center;
+  font-weight: 700;
+  font-size: 6.6em;
+}
+.days {
+  font-size: 4em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.cssCH {
+  font-weight: 300;
+  font-size: 1.9em;
+  text-align: center;
+}
